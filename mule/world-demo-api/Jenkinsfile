@@ -6,7 +6,7 @@ pipeline
  	stage('Build Application')
  	{
  		steps{
- 				bat 'mvn clean install'
+ 				bat 'mvn -f world-demo-api/pom.xml clean install'
  			}
  	}
  	stage('Deploy Application to Mulesoft CloudHub')
