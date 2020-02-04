@@ -80,5 +80,16 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
+	<distributionManagement>
+	<repository>
+		<id>admin</id>
+		<url>http://localhost:8089/nexus/content/repositories/test</url>
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+	</distributionManagement>
 </project>

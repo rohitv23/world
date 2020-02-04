@@ -15,5 +15,11 @@ pipeline
  				bat 'cd mule && cd world-demo-api && mvn package deploy -DmuleDeploy'
  			}
  	}
+ 	stage('Deploy To Nexus')
+ 	{
+ 		steps{
+ 				bat 'cd mule && cd world-demo-api && mvn deploy -DskipMunitTests -Dnexus.url=${NEXUS_URL}'
+ 			}
+ 	}
  }
 }
