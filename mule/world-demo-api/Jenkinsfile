@@ -18,7 +18,7 @@ pipeline
  	stage('Deploy To Nexus')
  	{
  		steps{
- 				bat 'cd mule && cd world-demo-api && mvn deploy -DskipMunitTests -DaltDeploymentRepository=test::default::${NEXUS_URL}'
+ 				bat 'cd mule && cd world-demo-api && mvn deploy -DskipMunitTests -DaltDeploymentRepository=test::default::http://localhost:8089/nexus/content/repositories/test'
  			}
  	}
  }
