@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>world-demo-api</artifactId>
+	<artifactId>world-demo-api-test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
@@ -31,7 +31,7 @@
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
-				<applicationName>world-demo-api</applicationName>
+				<applicationName>world-demo-api-test</applicationName>
 				<muleVersion>4.1.4</muleVersion>
 				<password></password>
 				</cloudHubDeployment>
