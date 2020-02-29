@@ -9,16 +9,16 @@ pipeline
  				bat 'cd mule && cd world-demo-api && mvn clean install'
  			}
  	}
- 	stage('Deploy Application to Mulesoft CloudHub')
- 	{
- 		steps{
- 				bat 'cd mule && cd world-demo-api && mvn package deploy -DmuleDeploy -Duid=%USERNAME% -Dpwd=%PASSWORD%'
- 			}
- 	}
  	stage('Deploy To Nexus')
  	{
  		steps{
  				bat 'cd mule && cd world-demo-api && mvn deploy -DskipMunitTests -DaltDeploymentRepository=test::default::%NEXUS_URL%'
+ 			}
+ 	}
+ 	stage('Deploy Application to Mulesoft CloudHub')
+ 	{
+ 		steps{
+ 				bat 'cd mule && cd world-demo-api && mvn package deploy -DmuleDeploy -Duid=%USERNAME% -Dpwd=%PASSWORD%'
  			}
  	}
  }
