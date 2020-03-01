@@ -17,7 +17,9 @@
 		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
 	</properties>
 	<scm>
-        <developerConnection>scm:git:https://github.com/rohitv23/world.git</developerConnection>
+		<connection>scm:git:git@github.com:rohitv23/world.git</connection>
+        <developerConnection>scm:git:git@github.com:rohitv23/world.git</developerConnection>
+        <url>git@github.com:rohitv23/world.git</url>
         <tag>HEAD</tag>
     </scm>
 	<build>
