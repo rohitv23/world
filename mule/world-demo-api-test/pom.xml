@@ -109,13 +109,13 @@
         </pluginRepository>
     </pluginRepositories>
 	<distributionManagement>
-	<repository>
-		<id>releases</id>
-		<url>${NEXUS_URL}</url>
-	</repository>
-	<snapshotRepository>
-        <id>snapshots</id>
-        <url>${NEXUS_URL}</url>
-    </snapshotRepository>
+		<repository>
+			<id>releases</id>
+			<url>${NEXUS_URL}</url>
+		</repository>
+		<snapshotRepository>
+        	<id>snapshots</id>
+        	<url>${NEXUS_URL}</url>
+    	</snapshotRepository>
 	</distributionManagement>
 </project>
