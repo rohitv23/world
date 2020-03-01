@@ -110,7 +110,7 @@
     </pluginRepositories>
 	<distributionManagement>
 		<repository>
-			<id>releases</id>
+			<id>test</id>
 			<url>${NEXUS_URL}</url>
 		</repository>
 		<snapshotRepository>
