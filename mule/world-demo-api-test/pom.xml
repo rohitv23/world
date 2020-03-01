@@ -17,7 +17,7 @@
 		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
 	</properties>
 	<scm>
-        <developerConnection>scm:git:https://github.com/rohitv23/world-tzone-rcv.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/rohitv23/world.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 	<build>
