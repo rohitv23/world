@@ -18,6 +18,7 @@
 	</properties>
 	<scm>
         <developerConnection>scm:git:https://github.com/rohitv23/world-tzone-rcv.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 	<build>
 		<plugins>
