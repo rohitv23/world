@@ -4,7 +4,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>world-demo-api-test</artifactId>
-    <version>1.0.54</version>
+    <version>1.0.55-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
 	<name>world-demo-api-test</name>
@@ -20,7 +20,7 @@
 		<connection>scm:git:git@github.com:rohitv23/world.git</connection>
         <developerConnection>scm:git:git@github.com:rohitv23/world.git</developerConnection>
         <url>git@github.com:rohitv23/world.git</url>
-        <tag>world-demo-api-test-1.0.54</tag>
+        <tag>world-demo-api-test-1.0.28</tag>
     </scm>
 	<build>
 		<plugins>
